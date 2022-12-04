@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Styling for the HEADER sections begins here! */
 .primary-header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,9 +20,10 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
-.primary-header h1 .seo {
+/* font style: normal applied to reverse the italics effect of <em> on the SEO words in Horiseon */
+.primary-header h1 em {
     color: #d9dcd6;
+    font-style:normal
 }
 
 .primary-header nav {
@@ -46,10 +48,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Styles applied to the header image - secondary header */
 .header-image {
     height: 800px;
     width: 100%;
@@ -59,15 +58,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/* Styling for the MAIN content begins here! */
 /* main represents the main contents of the webpage. main selector applies styles to the main container  */
 main {
     width: 75%;  /*Takes 75% of view point*/
@@ -88,9 +79,20 @@ main {
 }
 
 /* .main img selector applies styles to the image child element of the three section element with class ="main"  */
-/* Here, two initial CSS selectors in the previous code have been elominated due to the similar class vaalue applied above */
+/* Here, two initial CSS selectors in the previous code have been eliminated due to the similar class vaaue applied above */
 .main img {
     max-height: 200px;
+}
+
+/* Condensed  img 1 and 3 styles from previous code base*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 /* .main h2 applies styles to the h2 child elements within the the three section elements with class ="main" */
@@ -100,6 +102,11 @@ main {
     font-size: 36px;
 }
 
+p {
+    font-size: 16px;
+}
+
+/* Styling for the ASIDE content begins here */
 /* Styles added to the aside container  */
 aside {
     margin-right: 20px;
@@ -142,6 +149,7 @@ aside h2 {
     max-width: 150px;
 }
 
+/* Styling for the FOOTER begins here! */
 /* footer hooks on to the footer section of the webpage for styling */
 footer {
     padding: 30px;
