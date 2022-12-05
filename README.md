@@ -28,6 +28,11 @@ The one conflict in headings discovered in the starter code is the omission of a
 ### 5 – Webpage Tab caption
 The title - "Official Horiseon website" was used because it includes the company's name as well as their line of services. This title optimises the website search on search engines. 
 
+### Other minor fixes
+Other minor fixes done to improve accessibility includes
+    1. Linking the SEO navigation link on the header to the main content
+    2. Commenting the html and CSS for easy readability by other developers
+
 ## Final piece
 The following image shows the appearance of the webpage after implementing these 5 fixes (issues). 
 [Final webpage appearnace](./assets/images/final-webpage-appearance.png)
