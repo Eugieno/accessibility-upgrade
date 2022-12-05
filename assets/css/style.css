@@ -1,3 +1,4 @@
+/* Resets all html elements' margin and padding to zero */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -84,7 +85,7 @@ main {
     max-height: 200px;
 }
 
-/* Condensed  img 1 and 3 styles from previous code base*/
+/* Condensed  img 1 and 3 styles from starter code*/
 .float-left {
     float: left;
     margin-right: 25px;
