@@ -34,5 +34,4 @@ Other minor fixes done to improve accessibility includes
 2. Commenting the html and CSS for easy readability by other developers
 
 ## Final piece
-The following image shows the appearance of the webpage after implementing these 5 fixes (issues). 
-[Final webpage appearance](./assets/images/final-webpage-appearance.png)
+The following image shows the appearance of the webpage after implementing the 5 fixes plus the other minors (issues).[Final webpage appearance](./assets/images/final-webpage-appearance.png)
